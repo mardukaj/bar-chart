@@ -1,7 +1,7 @@
 # bar-chart
 
 In this example project i have created a library for drawing bar charts on X, Y axes. 
-Also i have made an live example for bar chart.
+Also i have made a live example for bar chart project.
 
 - index.html - Displays bar chart example.
 - script.js - In this file i have written code for creating bar chart. 
