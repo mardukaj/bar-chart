@@ -19,7 +19,9 @@ var myVinyls = {
 };
 
 var myBarchart = new Barchart(
+
     {
+    
         canvas:document.getElementById("canvas"),
         seriesName:"Nicest Fruit",
         padding: 35,
@@ -28,6 +30,7 @@ var myBarchart = new Barchart(
         data:myVinyls,
         colors:["#eb4d4b","#f0932b", "#f6e58d","#badc58", "#686de0", "#130f40"]
     }
+    
 );
 
 -----------------------
