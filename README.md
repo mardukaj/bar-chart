@@ -1,6 +1,6 @@
 # bar-chart
 
-In this example project i created library for drawing bar charts on X, Y axes. 
+In this example project i have created a library for drawing bar charts on X, Y axes. 
 Also i have made an live example for bar chart.
 
 - index.html - Displays bar chart example.
