@@ -9,7 +9,6 @@ Also i have made an live example for bar chart.
 To edit bar chart you can change data inside of script.js file. 
 Example of Data model:
 
-// Data model
 var myVinyls = {
     "Apple": 35,
     "Orange": 30,
@@ -19,7 +18,6 @@ var myVinyls = {
     "Grapes": 5
 };
 
-// Using Bar Chart Component - Instantiate the class and call draw() function
 var myBarchart = new Barchart(
     {
         canvas:document.getElementById("canvas"),
