@@ -4,7 +4,33 @@ In this example project i have created a library for drawing bar charts on X, Y 
 Also i have made an live example for bar chart.
 
 - index.html - Displays bar chart example.
-- script.js - In this file i have written code for creating bar chart.
+- script.js - In this file i have written code for creating bar chart. 
+
+To edit bar chart you can change data inside of script.js file. 
+Example of Data model:
+
+// Data model
+var myVinyls = {
+    "Apple": 35,
+    "Orange": 30,
+    "Banana": 10,
+    "Kiwifruit": 25,
+    "Blueberry": 40,
+    "Grapes": 5
+};
+
+// Using Bar Chart Component - Instantiate the class and call draw() function
+var myBarchart = new Barchart(
+    {
+        canvas:document.getElementById("canvas"),
+        seriesName:"Nicest Fruit",
+        padding: 35,
+        gridScale: 5,
+        gridColor:"#777",
+        data:myVinyls,
+        colors:["#eb4d4b","#f0932b", "#f6e58d","#badc58", "#686de0", "#130f40"]
+    }
+);
 
 -----------------------
 
