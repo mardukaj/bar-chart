@@ -7,15 +7,18 @@ Also i have made an live example for bar chart.
 - script.js - In this file i have written code for creating bar chart. 
 
 To edit bar chart you can change data inside of script.js file. 
+
 Example of Data model:
 
 var myVinyls = {
+
     "Apple": 35,
     "Orange": 30,
     "Banana": 10,
     "Kiwifruit": 25,
     "Blueberry": 40,
     "Grapes": 5
+    
 };
 
 var myBarchart = new Barchart(
@@ -32,6 +35,7 @@ var myBarchart = new Barchart(
     }
     
 );
+
 
 -----------------------
 
