@@ -11,7 +11,7 @@ To edit bar chart you can change data inside of script.js file.
 Example of Data model:
 
 <pre>
-    var myVinyls = {
+var myVinyls = {
     "Apple": 35,
     "Orange": 30,
     "Banana": 10,
@@ -21,10 +21,9 @@ Example of Data model:
 };
 </pre>
 
+<pre>
 var myBarchart = new Barchart(
-
     {
-    
         canvas:document.getElementById("canvas"),
         seriesName:"Nicest Fruit",
         padding: 35,
@@ -33,8 +32,8 @@ var myBarchart = new Barchart(
         data:myVinyls,
         colors:["#eb4d4b","#f0932b", "#f6e58d","#badc58", "#686de0", "#130f40"]
     }
-    
 );
+</pre>
 
 
 -----------------------
